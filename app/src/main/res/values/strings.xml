@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">seniorResearch</string>
+    <string name="welcome_to_learn_java">Welcome to learn Java!</string>
+    <string name="hit_next_to_begin">Hit next to begin!</string>
+    <string name="click_next_to_begin">Click next to begin!</string>
+    <string name="next">Next!</string>
+    <string name="in_java_system_out_print_is_used_to_print_outputs">In Java, System.out.print() is used to print outputs.</string>
+    <string name="system_out_print_the_quotes_inside_are_literal_and_will_print_the_literal_words_inside">System.out.print(), the quotes inside are literal and will print the literal words inside.</string>
+    <string name="compilation_error">Compilation error</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="hello">\"hello world!\"</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="the_n_can_be_used_to_create_a_new_line_and_putting_two_can_enable_you_to_put_in_one_slashs">The \\n can be used to create a new line and putting two \\ can enable you to put in one slashs</string>
+    <string name="next3">Next</string>
+    <string name="hello1">Hello</string>
+    <string name="world">World!</string>
+    <string name="hello_world2">\\Hello World!</string>
+    <string name="compiler_error">Compiler Error</string>
+    <string name="almost_there">Almost there!</string>
+    <string name="_2a">2A</string>
+    <string name="_2b">2B</string>
+    <string name="_2c">2C</string>
+    <string name="_1a">1A</string>
+    <string name="_1c">1C</string>
+    <string name="_1b">1B</string>
+    <string name="next_question">Next question</string>
+    <string name="textview">TextView</string>
+</resources>

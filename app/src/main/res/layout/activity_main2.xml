@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:layout_alignBottom="@+id/answerLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/answerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            android:layout_below="@+id/questionView"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="16dp"
+                android:text="Hello World!"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView10"
+                android:layout_alignStart="@+id/textView10"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="33dp"
+                android:text="@string/hello"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView10"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/compilation_error"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/in_java_system_out_print_is_used_to_print_outputs"
+            android:textAlignment="textStart"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="1dp"
+            android:text="@string/system_out_print_the_quotes_inside_are_literal_and_will_print_the_literal_words_inside"
+            android:textAlignment="textStart"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/questionView"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_below="@+id/textView3"
+            android:textAlignment="textStart"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/answers"
+            android:layout_width="54dp"
+            android:layout_height="171dp"
+            android:layout_below="@+id/questionView">
+
+            <RadioButton
+                android:id="@+id/q1a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_1a" />
+
+            <RadioButton
+                android:id="@+id/q1b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_1b" />
+
+            <RadioButton
+                android:id="@+id/q1c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_1c" />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/answers">
+
+            <Button
+                android:id="@+id/q1button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/next_question" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

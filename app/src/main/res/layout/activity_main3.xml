@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="510dp"
+        tools:layout_editor_absoluteX="-1dp">
+
+        <RelativeLayout
+            android:layout_width="385dp"
+            android:layout_height="126dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="31dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="369dp">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/almost_there" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/the_n_can_be_used_to_create_a_new_line_and_putting_two_can_enable_you_to_put_in_one_slashs"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/question2"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:layout_below="@+id/textView4"
+                android:layout_marginTop="-1dp"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r2"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_alignBottom="@+id/r1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="154dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="171dp">
+
+            <RadioGroup
+                android:id="@+id/answers2"
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/q2a"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:text="@string/_2a" />
+
+                <RadioButton
+                    android:id="@+id/q2b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/_2b" />
+
+                <RadioButton
+                    android:id="@+id/q2c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/_2c" />
+            </RadioGroup>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="99dp">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="73dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="@string/hello1"
+                    android:textAlignment="textStart"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView13"
+                    android:layout_alignParentStart="true"
+                    android:text="@string/world"
+                    android:textAlignment="textStart"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="222dp"
+                    android:layout_height="42dp"
+                    android:layout_below="@+id/textView14"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="9dp"
+                    android:text="\\\Hello World!"
+                    android:textAlignment="textStart"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginBottom="11dp"
+                    android:text="@string/compiler_error"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
